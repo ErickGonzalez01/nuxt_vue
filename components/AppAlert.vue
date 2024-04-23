@@ -1,0 +1,16 @@
+<template>
+    <div class="app-alert">
+        <slot></slot>
+    </div>
+</template>
+
+<style scoped>
+    .app-alert {
+        background-color: #f8d7da;
+        color: #721c24;
+        padding: 1rem;
+        border-radius: 0.25rem;
+        margin-bottom: 1rem;
+        border: 1px solid #f5c6cb;
+    }
+</style>
